@@ -4,13 +4,20 @@ This is a work in progress template for R shiny and electron integration
 
 _NOT FOR PRODUCTION_
 
+## To fix
+
+The `add-cran-binary-pkgs.R` has an unsatisfied dependency itself. Fix to not use it or do something different.
+
+
 ## Quickstart
 
 * Clone
 * `npm install`
 * Download mac binaries `./get-r-mac.sh`
+* FIXME - manually install the 'automagic' library within the `r-mac/R` install.
 * Download shiny `Rscript add-cran-binary-pkgs.R`
 * `npm start`
+* Build a package with `npm run package`
 
 ## Contribute
 
